@@ -5,6 +5,7 @@
     gap: .5rem;
     &-text {
         width: 100%;
+        min-height: fit-content;
         border-radius: 5px;
     }
 }
