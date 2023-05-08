@@ -1,0 +1,25 @@
+.NotesList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    &-container {
+        background-color: #fff;
+        border-radius: 5px;
+        padding: .5rem;
+        &-header{
+            display: flex;
+            justify-content: right;
+            margin-bottom: .5rem;
+            & p {
+                margin-right: auto;
+            }
+            & button {
+                margin-left: .5rem;
+            }
+        }
+        &--none{
+            display: none;
+        }
+    }
+}

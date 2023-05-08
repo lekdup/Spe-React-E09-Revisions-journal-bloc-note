@@ -1,0 +1,10 @@
+.form {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    &-text {
+        width: 100%;
+        border-radius: 5px;
+    }
+}

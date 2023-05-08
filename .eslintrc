@@ -4,6 +4,7 @@
   "env": {
     "browser": true
   },
+  "indent": ["error", "tab"],
   "rules": { "brace-style": ["error", "stroustrup"], "no-param-reassign": [ "error", { "props": false }
     ],
     "no-mixed-operators": [
