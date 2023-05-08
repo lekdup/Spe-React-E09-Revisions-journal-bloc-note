@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './Form.scss';
+import { Button, Icon } from 'semantic-ui-react';
 
 function Form({ notes, setNotes }) {
     const [note, setNote] = useState({
@@ -26,12 +27,9 @@ function Form({ notes, setNotes }) {
                 value={note.text}
                 onChange={(e) => setNote({...note, text: e.target.value})}
             />
-            <button
-                type="submit"
-                className="form-btn"
-            >
-                Ajouter
-            </button>
+            <Button icon className='form-btn' color='purple'>
+                <Icon name='add' />
+            </Button>
         </form>
     )
 }
